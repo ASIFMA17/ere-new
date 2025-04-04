@@ -88,7 +88,7 @@ function Login() {
                             </Col>
                             <Col xs={12}>
                                 <div className='singup-last'>
-                                    <span className='singup-text'>Create an account? <Link to='/' className='singup-login'>Singup</Link></span>
+                                    <span className='singup-text'>Create an account? <Link to='/login' className='singup-login'>Singup</Link></span>
                                 </div>
                             </Col>
                         </Row>
