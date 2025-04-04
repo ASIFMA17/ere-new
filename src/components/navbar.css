@@ -1,0 +1,248 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+.img-nav {
+    width: 18px;
+    height: 18px;
+}
+
+.navbar-second {
+    /* background: #0d6efd; */
+    /* background: #4E342E; */
+    background: #121618;
+    /* background: linear-gradient(90deg, rgba(39,1,69,1) 40%, rgba(80,4,245,1) 100%); */
+    /* background: rgb(3, 25, 69); */
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #000000;
+}
+
+.navbar-second-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-Links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+/* .text-nav{
+    color: #fff;
+} */
+
+.nav-link {
+    text-decoration: none;
+    color: #fff !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    border-bottom: solid 0px #fff;
+    transform: border-bottom;
+    transition: ease-in 3s;
+    position: relative;
+    padding-bottom: 2px !important;
+
+}
+
+
+.nav-link::after {
+    content: '';
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    transform: translateX(0px);
+    transition: ease-in 0.5s;
+    overflow: hidden;
+
+}
+
+.nav-link:hover:after {
+    content: '';
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    transform: translateX(0px);
+    transition: ease-in 0.5s;
+}
+
+.inputDiv-nav {
+    border: solid 1px #F5F5F5;
+    background: #F5F5F5;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    /* gap: 15px; */
+}
+
+input {
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+::placeholder {
+    font-size: 12px;
+}
+
+.nav-Logo {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.meanuIcon-Div {
+    color: #fff;
+}
+
+/* .closeIcon{
+    display: none;
+} */
+
+.logo-Div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 5px; */
+}
+
+.logo-nav{
+    width: 24px;
+    height: 24px;
+    color: #fff;
+}
+
+
+@media screen and (max-width:768px) {
+    .meanu {
+        z-index: 1;
+        position: absolute;
+        width: 70%;
+        top: -500px;
+        right: 50%;
+        left: 50%;
+        transform: translate(-50%);
+        background: #121618;
+        /* background: linear-gradient(48deg, rgb(114, 145, 255), rgb(42, 73, 198)); */
+        padding: 2rem;
+        border-radius: 10px;
+        transition: .5s ease-in-out;
+        box-shadow: 0 2px 25px -5px #000000;
+        /* border: solid 1px #000000; */
+    }
+
+    .nav-Links {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+
+    .closeIcon {
+        top: 8px;
+        right: 10px;
+        position: absolute;
+        color: #fff;
+    }
+
+    .activeMeanu {
+        top: 80px;
+    }
+
+    ::placeholder {
+        font-size: 11px;
+    }
+
+    .hideShow-dashNav {
+        display: none;
+    }
+    .logo-nav{
+        width: 22px;
+        height: 22px;
+    }
+}
+
+
+/* MEDIA QUERIES =======================================================> */
+
+@media screen and (min-width:768px) {
+    .closeIcon {
+        display: none;
+    }
+
+    .meanuIcon-Div {
+        display: none;
+    }
+
+    .nav-Links {
+        gap: 20px;
+    }
+    .showHide-dashNav{
+        display: none;
+    }
+}
+
+@media (min-width:992px) {
+    .nav-Links {
+        gap: 25px;
+    }
+}
+
+@media (min-width:1192px) {
+    .nav-Logo {
+        font-size: 15px;
+    }
+
+    .nav-link {
+        font-size: 13px !important;
+    }
+}
+
+@media screen and (min-width:568px) {
+    .inputDiv-nav {
+        padding: 1px;
+    }
+
+}
+
+
+@media screen and (max-width:576px) {
+    .inputDiv-nav {
+        padding: 0px;
+        gap: 10px;
+    }
+    .logo-nav{
+        width: 20px;
+        height: 20px;
+    }
+
+}
+
+/* @media screen and (max-width:500px){
+
+    ::placeholder {
+        font-size: 13px;
+    }
+} */
+
+@media screen and (max-width:400px) {
+    .inputDiv-nav {
+        display: none;
+    }
+}

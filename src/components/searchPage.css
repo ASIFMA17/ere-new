@@ -1,0 +1,52 @@
+.sortPage{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.sortBox-Head{
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sort-box{
+    width: 100% !important;
+    background: #fff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    border: solid 1px #000000;
+}
+
+.sortBox-ButtonDiv{
+    display: flex;
+    justify-content: center;
+}
+
+::placeholder{
+    font-size: 13px;
+}
+
+.sortBox-Button{
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+@media screen and (max-width:576px) {
+    .sortBox-Head{
+        font-size: 14px;
+    }
+    .sortPage{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .sortBox-Button{
+        font-size: 13px;
+    }
+}

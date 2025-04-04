@@ -1,0 +1,271 @@
+.tableMargin {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.tableHead {
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    border: solid 1px #000000;
+    color: #121618 !important;
+    background: #DEDFE4 !important;
+}
+
+.tableText {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+.pagination {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px !important;
+    padding-top: 10px !important;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.page-button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: #121618;
+    color: #ffffff;
+}
+
+.page-num {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
+    color: #121618;
+}
+
+.page-num:hover {
+    background-color: #121618;
+    color: #ffffff;
+}
+
+.active {
+    background-color: #121618 !important;
+    color: #ffffff !important;
+}
+
+@media screen and (max-width:1200px) {
+
+    .tableMargin {
+        margin-left: 45px !important;
+        margin-right: 45px !important;
+        margin-top: 45px !important;
+    }
+
+}
+
+@media screen and (max-width:1050px) {
+
+    .tableMargin {
+        margin-left: 35px !important;
+        margin-right: 35px !important;
+        margin-top: 35px !important;
+    }
+
+}
+
+@media screen and (max-width:915px) {
+
+    .tableMargin {
+        margin-left: 30px !important;
+        margin-right: 30px !important;
+    }
+
+    .tableHead {
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
+        text-align: center;
+    }
+
+
+    .tableText {
+        font-size: 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-top: 5px;
+        padding-bottom: 3px;
+    }
+
+}
+
+@media screen and (max-width:851px) {
+
+    .tableMargin {
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+
+    .tableHead {
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
+        text-align: center;
+    }
+
+
+    .tableText {
+        font-size: 14px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-top: 5px;
+        padding-bottom: 3px;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+
+    .tableMargin {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+
+
+}
+
+@media screen and (max-width:768px) {
+
+    .tableMargin {
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+    }
+
+
+}
+
+@media screen and (max-width:576px) {
+
+    .tableMargin {
+        margin-left: 3px !important;
+        margin-right: 3px !important;
+    }
+
+    .tableHead {
+        font-size: 14px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
+        text-align: center;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+
+    .tableText {
+        font-size: 13px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-top: 3px;
+        padding-bottom: 2px;
+    }
+
+    .pagination {
+        padding-bottom: 15px !important;
+        padding-top: 10px !important;
+        gap: 3px;
+        font-size: 13px;
+    }
+
+    .page-button {
+        padding: 4px 8px;
+        border-radius: 5px;
+        font-weight: 600;
+    }
+
+    .page-num {
+        padding: 4px 8px;
+        border-radius: 5px;
+        font-weight: 400;
+        cursor: pointer;
+        text-decoration: none;
+        color: #121618;
+    }
+
+
+}
+
+@media screen and (max-width:500px) {
+
+    .tableMargin {
+        margin-left: 1px !important;
+        margin-right: 1px !important;
+    }
+
+    .tableHead {
+        font-size: 13px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        text-align: center;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+
+    .tableText {
+        font-size: 12px !important;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .emailText {
+        text-align: center;
+        max-width: 500px;
+        word-wrap: break-word;
+    }
+
+
+}
+
+@media screen and (max-width:400px) {
+
+    .tableMargin {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .tableHead {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+
+    .tableText {
+        font-size: 11px !important;
+    }
+
+
+}
+
+@media screen and (max-width:360px) {
+
+    .tableMargin {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .tableHead {
+        font-size: 11px;
+        font-weight: 500;
+    }
+
+
+    .tableText {
+        font-size: 10px !important;
+    }
+
+
+}
